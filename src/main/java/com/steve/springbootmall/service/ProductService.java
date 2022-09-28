@@ -1,10 +1,14 @@
 package com.steve.springbootmall.service;
 
+import java.util.List;
+
 import com.steve.springbootmall.model.Product;
 import com.steve.springbootmall.model.ProductRequest;
 
 public interface ProductService {
 
+	List<Product> getProducts();
+	
 	Product getProductById(Integer productId);
 	
 	Integer createProduct(ProductRequest productRequest);
