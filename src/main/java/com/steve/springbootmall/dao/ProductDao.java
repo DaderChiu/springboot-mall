@@ -4,11 +4,12 @@ import java.util.List;
 
 import com.steve.springbootmall.constant.ProductCategory;
 import com.steve.springbootmall.model.Product;
+import com.steve.springbootmall.model.ProductQueryParams;
 import com.steve.springbootmall.model.ProductRequest;
 
 public interface ProductDao {
 
-	List<Product> getProducts(ProductCategory category, String search);
+	List<Product> getProducts(ProductQueryParams productQueryParams);
 	
 	Product getProductById(Integer productId);
 	
