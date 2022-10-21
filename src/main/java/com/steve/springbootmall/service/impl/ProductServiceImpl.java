@@ -1,4 +1,4 @@
-package com.steve.springbootmall.service;
+package com.steve.springbootmall.service.impl;
 
 import java.util.List;
 
@@ -9,6 +9,7 @@ import com.steve.springbootmall.dao.ProductDao;
 import com.steve.springbootmall.model.Product;
 import com.steve.springbootmall.model.ProductQueryParams;
 import com.steve.springbootmall.model.ProductRequest;
+import com.steve.springbootmall.service.ProductService;
 
 @Component
 public class ProductServiceImpl implements ProductService{

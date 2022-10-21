@@ -1,4 +1,4 @@
-package com.steve.springbootmall.dao;
+package com.steve.springbootmall.dao.impl;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -12,6 +12,7 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Component;
 
+import com.steve.springbootmall.dao.ProductDao;
 import com.steve.springbootmall.model.Product;
 import com.steve.springbootmall.model.ProductQueryParams;
 import com.steve.springbootmall.model.ProductRequest;
